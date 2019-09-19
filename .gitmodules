@@ -10,3 +10,6 @@
 [submodule "pack/my-plugins/start/ultisnips"]
 	path = pack/my-plugins/start/ultisnips
 	url = https://github.com/SirVer/ultisnips.git
+[submodule "pack/my-plugins/start/vim-snippets"]
+	path = pack/my-plugins/start/vim-snippets
+	url = https://github.com/honza/vim-snippets.git
