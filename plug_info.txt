@@ -1,0 +1,19 @@
+https://shapeshed.com/vim-packages/
+
+steps: (look to make an .sh script to automate this process)
+
+## add a plugin
+cd .vim
+git submodule add $1 vim/pack/my-plugins/start/$2
+git add .gitmodules vim/pack/my-plugins/start/$2
+git commit
+
+## update plugins
+git submodule update --remote --merge
+git commit
+
+## delete plugins
+git submodule deinit vim/pack/my-plugins/start/$1
+git rm vim/pack/my-plugins/start/$1
+rm -Rf .git/modules/vim/pack/my-plugins/start/$1
+git commit
