@@ -13,3 +13,6 @@
 [submodule "pack/my-plugins/start/vim-snippets"]
 	path = pack/my-plugins/start/vim-snippets
 	url = https://github.com/honza/vim-snippets.git
+[submodule "pack/my-plugins/start/julia-vim"]
+	path = pack/my-plugins/start/julia-vim
+	url = https://github.com/JuliaEditorSupport/julia-vim.git
